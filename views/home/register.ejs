@@ -1,0 +1,66 @@
+<section  class="section container-fluid">
+    <div class="row">
+        <!-- Registration Form -->
+        <div id ="register_form" class="white_border less_opacity offset-m3 col m6  font_family_all p_15 z-depth-2" style="background-image: url('../images/space2.jpg');">
+            <div class="row">
+                <div class="offset-m3 col m8">
+                    <div class="border_radius_5">
+                        <div class="white_text font_22">
+                            <p >All fields are mandatory</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <input type="text" id="name" name="name" class="col m8 black white_text" placeholder="Name" autocomplete="off">
+                    </div>
+                    <div class="row">
+                        <input  type="number" id="mobile" name="mobile" class="col m8 black white_text" onkeyup="checkMobValidation(); return false;" placeholder="Mobile" autocomplete="off">
+                        <span id="invalid_mob_msg" class="font_12 font_w_600 red_star display_n p_l">Invalid mobile number</span>
+                    </div>
+                  
+                    <div class="row">
+                        <input  type="text" id="email" name="email" class="col m8 black white_text"  onkeyup="checkEmailValidation(); return false;" placeholder="Email" autocomplete="off">
+                        <span id="invalid_email_msg" class="font_12 font_w_600 red_star display_n p_l">Invalid email</span>
+                    </div>
+                    <div class="row">
+                        <select name="res_type" id="res_type" class="col m8 black white_text">
+                            <option value="" disabled selected>Registration Type</option>
+                            <option value="self">Self</option>
+                            <option value="group">Group</option>
+                            <option value="corporate">Corporate</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <input type="number" id="ticket_no" value="" placeholder="Please enter no. of members" class="white  text_left col m7" disabled style="padding: 0 16px;">
+                    </div>
+                    <div class="row">
+                        <input type="file" id="id_card" name="id_card" accept = "image/*" class="row line_h_2  col m8">
+                        <canvas class="display_n" id="canvas" width="300" height="200" style="border:1px solid #d3d3d3;"></canvas>
+
+                    </div>
+                    <div class="row">
+                        <a id="preview" class="btn col m3 font_family_cursive waves-effect waves-light">Preview
+                            <i class="material-icons right">pageview</i>
+                        </a>
+                    
+                        <button type="submit" id="submit" class="btn offset-m2  col m3 font_family_cursive waves-effect waves-light" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thank you Form -->
+        <div id ="thanku_form" class="display_n white_border less_opacity offset-m3 col m6  font_family_all p_15 z-depth-2" style="background-image: url('../images/space2.jpg');">
+            <div class="row">
+                <center>
+                    <h2 class="white_text">Thank You For Registering.</h2>
+                    <p class="white_text">Your Registeration Number is  <p id="res_id" class="white_text"></p> </p>
+                    <img src="../images/thanku.jpg" alt="" class="offset-m3 col m6">
+                </center>
+            </div>
+        </div>
+    </div>
+</section>

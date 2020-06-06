@@ -1,0 +1,137 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+.gradient_back {
+    background: radial-gradient(#0a00ff, transparent);
+}
+.font_family_all {
+    font-family: sans-serif;
+}
+.font_family_cursive {
+    font-family: cursive;
+}
+.border_radius_20 {
+    border-radius: 5px;
+}
+.border_radius_5 {
+    border-radius: 5px;
+}
+
+.no_background {
+    background: none;
+}
+.text_left {
+    text-align: left;
+}
+.m_10 {
+    margin: 10px;
+}
+.p_0_5 {
+    padding: 0 5px !important;
+}
+.p_10 {
+    padding: 10px !important;
+}
+.p_15 {
+    padding: 15px !important;
+}
+.float_r {
+    float: right !important;
+}
+.float_l {
+    float: left !important;
+}
+.box_h {
+    height: 30px !important;
+}
+.m_t_3 {
+    margin-top: 3%;
+}
+select {
+    display: block;
+}
+.display_n {
+    display: none;
+}
+.red_star {
+    color: red;
+}
+label {
+    color: #3b3b3b;
+    font-weight: 600;
+}
+.btn {
+    background-color: rgba(0,0,0,0.42) !important;
+}
+.font_12 {
+    font-size: 12px;
+}
+.font_20 {
+    font-size: 20px;
+}
+.font_22 {
+    font-size: 22px;
+}
+.font_w_600 {
+    font-weight: 600;
+}
+.line_h_2 {
+    line-height: 2;
+}
+.text_c {
+    text-align: center;
+}
+.less_opacity {
+    opacity: 0.9;
+}
+
+.white_text {
+    color: #fff;
+}
+.white_border {
+    border:1px solid #fff;
+}
+.p_l {
+    padding-left: 10px;
+}
+.user_pic {
+    width: 300px;
+    height: 200px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    transition: all .3s ease-in-out;
+}
+#user_pic {
+    width:auto; 
+    object-fit: cover;
+}
+
+.frame-square {
+    background: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 200px;
+}
+
+.crop {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.crop img {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    position: absolute;
+    top: -100%;
+    right: -100%;
+    bottom: -100%;
+    left: -100%;
+    
+}
+  

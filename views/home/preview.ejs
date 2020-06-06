@@ -1,0 +1,89 @@
+<%- include('../common/header.ejs') %>
+<body class="grey lighten-5" style="background-image: url('../images/ring.jpg');">
+
+    <section class="section container-fluid">
+        <div class="row">
+            <div class="white_text offset-m3 col m6 s12  lighten-5 gradient_back border_radius_20 font_family_all p_15 z-depth-2">
+                <center class="border_radius_5">
+                    <div class="">
+                        <h4 class="p_10">Preview of Details Entered</h4>
+                    </div>
+                </center>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="font_20 offset-m3 col m6 s12  white_text lighten-5 gradient_back border_radius_20 font_family_all p_15 z-depth-2">
+                <p><center class="font_w_600">You can edit data in the form </center></p>
+                <div class="">
+                    <div class="col m12 m_10 s12">
+                        <div>
+                            <label for="name" class="col m3 white_text">Name :</label>
+                        </div>
+                        <div class="col m6 s12  box_h">
+                            <span id="name"></span>
+                        </div>
+                    </div>
+
+                    <div class="col m12 m_10 s12 ">
+                        <div>
+                            <label for="mobile" class="col m3 white_text">Mobile :</label>
+                        </div>
+                        <div class="col m6 s12  box_h">
+                            <span id="mobile"></span>
+                        </div>
+                    </div>
+
+                    <div class="col m12 m_10 s12 ">
+                        <div>
+                            <label for="email" class="col m3 white_text">Email :</label>
+                        </div>
+                        <div class="col m6 s12  box_h">
+                            <span id="email"></span>
+                        </div>
+                    </div>
+
+                    <div class="col m12 m_10 s12 ">
+                        <div>
+                            <label for="res_type" class="col m3 white_text">Registration Type :</label>
+                        </div>
+                        <div class="col m6 s12  box_h">
+                            <span id="res_type"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="col m12 m_10 s12 ">
+                        <div>
+                            <label for="ticket_no" class="col m3 white_text">No. of Tickets :</label>
+                        </div>
+                        <div class="col m6 s12  box_h">
+                            <span id="ticket_no"></span>
+                        </div>
+                    </div>
+
+                    <div class=" col m12 m_10 s12 ">
+                        <div>
+                            <label for="ticket_no" class="col m3 white_text">Pic</label>
+                        </div>
+                        <div>
+                            <div class=" frame-square">
+                                <div class="crop" >
+                                    <img src=""  id="user_pic" alt="">
+                                </div>
+                            </div>
+
+                            <br><br>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+<footer>
+    <%- include('../common/footer.ejs')%>
+</footer>
